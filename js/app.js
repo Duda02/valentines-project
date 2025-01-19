@@ -1,5 +1,3 @@
-const swal = require('sweetalert');
-
 const imageSources = [
     'cat-cry.gif',
     'cat-scream.gif',
