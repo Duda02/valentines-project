@@ -1,4 +1,4 @@
-import swal from 'sweetalert';
+const swal = require('sweetalert');
 
 const imageSources = [
     'cat-cry.gif',
