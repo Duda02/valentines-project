@@ -2,6 +2,13 @@ const imageSources = [
     'cat-cry.gif',
     'cat-scream.gif',
     'sad-cat.gif',
+    'cat-cats.gif',
+    'sad-cat-1.gif',
+    'sad-cat-2.gif',
+    'cat-crying-cat.gif',
+    'cat-crying-cat-1.gif',
+    'cat-kitten.gif',
+    'cat-stare-stare.gif',
 ];
 
 window.onload = function() {
@@ -45,6 +52,7 @@ window.onload = function() {
             case 2:
                 noButton.innerText = 'Nie??????';
                 noButton.onmouseover = onMouseOver;
+                onMouseOver();
                 break;
             case 3:
                 noButton.innerText = 'No dobrze...';
@@ -70,7 +78,7 @@ window.onload = function() {
                 noButton.innerText = 'Ostatnia szansa..';
                 break;
             case 7:
-                noButton.innerText = 'Ok.. jeśli tak wolisz';
+                noButton.innerText = 'Ok.. nie to nie';
                 break;
             case 8:
                 noButton.innerText = 'Definitywnie NIE??';
